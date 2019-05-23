@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Light;
+  src: url(@assets/fonts/Lato/Lato-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: LightItalic;
+  src: url(@assets/fonts/Lato/Lato-LightItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: Regular;
+  src: url(@assets/fonts/Lato/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: RegularItalic;
+  src: url(@assets/fonts/Lato/Lato-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: Bold;
+  src: url(@assets/fonts/Lato/Lato-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: BoldItalic;
+  src: url(@assets/fonts/Lato/Lato-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: Black;
+  src: url(@assets/fonts/Lato/Lato-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: BlackItalic;
+  src: url(@assets/fonts/Lato/Lato-BlackItalic.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: Regular;
+  background-color: $gray-6;
+}
+
+*:focus {
+  outline: none;
+}

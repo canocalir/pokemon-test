@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@shared/*": ["src/shared/*"],
+      "@router/*": ["src/router/*"],
+      "@sections/*": ["src/sections/*"],
+      "@dashboard/*": ["src/sections/Dashboard/*"],
+      "@assets/*": ["src/assets/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
+  
