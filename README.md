@@ -15,6 +15,7 @@ You have to implement the main list like in this image:
 <img align="center" src="https://imgur.com/HNu1wmq.png" style="border: 1px solid black" />
 
 Notice that:
+*  There are only the 151 pokemon of the first generation
 *  The url is **/pokemon**.
 *  When user hovers a pokemon, its background becomes gray.
 
