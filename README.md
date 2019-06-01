@@ -1,5 +1,28 @@
-
 # Pokemon test
+
+## Notes from Can
+ 
+  ### What I Accomplished
+  * Used **flex** in styling.
+  * Avoided from **unknown urls** while redirecting.
+  * Avoided from installing libraries.
+  * Used **mixins.scss** for responsiveness.
+  * Used **relative paths** while importing.
+  * Used **predefined styles**.
+  * Used existing **color palette**, **font sizes**, **media queries**, **padding sizes**.
+  * Fixed style faults with `npm run standard`.
+  * Created `utils.js` inside shared folder for **global functions**.
+ 
+  ### When I Stuck on Something
+  * I didin't asked for help on StackoverFlow, Medium or anywhere else, but got help from some documentations.
+ 
+  ### What I Experimented
+  * **Dockerizing** the app. ( I was able to build and run the app inside a **Nginx** container on my computer with `docker run`, but couldn't handle to run with `docker start` )
+  * Tried to refactor the code to **Redux** but didin't accomplished. (I need to see it while someone doing it, because online documentations are not clear)
+  * Deployed the app to AWS for live demo.
+ 
+<hr/>
+
 
 Hello. This is the Immfly frontend code test. You have to build a web application listing the **first pokemon generation**.
 <hr>

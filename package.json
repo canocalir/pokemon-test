@@ -10,6 +10,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "start:docker": "webpack-dev-server --host 0.0.0.0 --public=localhost:$PORT --port 80 --hot --mode development",
+    "deploy": "aws s3 sync dist/ s3://pokemon-test",
     "build": "webpack --mode production",
     "js-linter": "standard",
     "standard": "standard --fix"

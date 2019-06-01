@@ -21,6 +21,10 @@
     @include desktop {
         margin: 0 15% -15px 15%;
     }
+
+    @include non-large-desktop {
+        margin: 0 25% -15px 25%;
+    }
 }
 
 .singlecard{
