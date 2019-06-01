@@ -1,12 +1,13 @@
 import React from 'react'
 import { Route, BrowserRouter, Switch, Redirect } from 'react-router-dom'
-
 import Main from '@sections/Main'
+import PokeDetail from '@sections/Main/components/PokeDetail/PokeDetail'
 
 const Router = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path='/' component={Main} />
+      <Route exact path='/pokemon/:name' component={PokeDetail} />
       <Redirect to='/' />
     </Switch>
   </BrowserRouter>

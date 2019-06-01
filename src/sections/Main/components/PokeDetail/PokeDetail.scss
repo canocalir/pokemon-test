@@ -1,0 +1,80 @@
+
+.detailContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.detailCard {
+    display: flex;
+    flex-direction: column;
+    padding : $standard-space-4;
+    background : $white-1;
+    width: 100%;
+    height: 100%;
+    border:1px solid $gray-1;
+    max-width: 480px;
+    max-height: 650px;
+    
+}
+
+ul {
+    margin-top: $standard-space-4;
+    margin-bottom: $standard-space-2;
+    font-size: $font-size-4;
+    list-style: none;
+}
+
+ul li:before { 
+    content:"•"; font-size: $font-size-8; 
+}
+
+
+li {
+    font-size: $font-size-3;
+    margin-left: $standard-space-1;
+}
+
+
+.closeGoBack {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: $font-size-2;
+    cursor: pointer;
+    padding: $standard-space-4;
+    margin-top: $standard-space-3;
+    margin-right: $standard-space-3;
+}
+
+.imageName {
+    text-align: center;
+    font-size: $font-size-2;
+    
+}
+
+.detailTexts > p {
+
+    margin-top: $standard-space-4;
+    margin-left: $standard-space-1;
+    margin-bottom: $standard-space-1;
+    font-size: $font-size-2;
+    font-family: Regular;
+}
+
+.detailTexts {
+    display: flex;
+    flex-direction: column;
+    font-size: $font-size-3;
+    color: $gray-2;
+    padding: $standard-space-4;
+}
+
+.imageName > img {
+    width:100%;
+    max-width: 140px;
+}

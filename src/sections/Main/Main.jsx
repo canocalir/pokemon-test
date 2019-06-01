@@ -1,7 +1,10 @@
 import React from 'react'
+import Images from './components/Images/Images'
+import PokeContainer from './components/PokeContainer/PokeContainer'
 
-import Images from './components/Images'
-
-const Main = () => <Images />
-
+const Main = () =>
+  <div>
+    <Images />
+    <PokeContainer />
+  </div>
 export default Main

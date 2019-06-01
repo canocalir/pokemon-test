@@ -1,0 +1,21 @@
+.titlesMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  
+}
+
+.titlesMain > h4 {
+    font-family: Light;
+
+}
+
+.titlesMain > h5 {
+    margin-top: -15px;
+    margin-bottom: $standard-space-4;
+    font-family: Light;
+
+}
