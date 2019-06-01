@@ -40,7 +40,7 @@ $large-desktop-width: 1400px;
 }
 
 @mixin non-large-desktop {
-  @media (max-width: #{$large-desktop-width - 1px}) {
+  @media (min-width: #{$large-desktop-width - 1px}) {
     @content;
   }
 }
