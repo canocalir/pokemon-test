@@ -1,7 +1,6 @@
-import React from 'react'
-import { BarLoader, BeatLoader } from 'react-spinners'
-
-import style from './Loader.scss'
+import React from 'react';
+import { BarLoader, BeatLoader } from 'react-spinners';
+import style from './loader.styles.scss';
 
 const Loader = ({ bar, color, position }) => {
   const loaderColor = color || '#dc093b'

@@ -1,11 +1,11 @@
-import React from 'react'
-import { urlCorrector, upperCaseFirstChar } from '@shared/utils'
-
-import style from './PokeSingle.scss'
+import React from 'react';
+import { urlCorrector, upperCaseFirstChar } from '@shared/utils';
+import style from './single-pokemon.styles.scss';
+import PropTypes from 'prop-types';
 
 export default function PokeSingle (props) {
-  const {pokemon} = props
-  const avatar = `http://pokestadium.com/sprites/xy/${urlCorrector(pokemon.name)}.gif`
+  const {pokemon} = props;
+  const avatar = `http://pokestadium.com/sprites/xy/${urlCorrector(pokemon.name)}.gif`;
 
   return (
     <div className={style.flexcontainer}>
@@ -24,3 +24,8 @@ export default function PokeSingle (props) {
     </div>
   )
 }
+
+PokeSingle.propTypes = {
+  name: PropTypes.string
+}
+

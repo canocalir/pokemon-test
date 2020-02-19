@@ -12,15 +12,17 @@
   * Used existing **color palette**, **font sizes**, **media queries**, **padding sizes**.
   * Fixed style faults with `npm run standard`.
   * Created `utils.js` inside shared folder for **global functions**.
- 
-  ### When I Stuck on Something
-  * I didin't asked for help on StackoverFlow, Medium or anywhere else, but got help from some documentations.
+  * Created Fetch Component for async fetching.
+  * Refactored code for better standards.
  
   ### What I Experimented
-  * **Dockerizing** the app. ( I was able to build and run the app inside a **Nginx** container on my computer with `docker run`, but couldn't handle to run with `docker start` )
-  * Tried to refactor the code to **Redux** but didin't accomplished. (I need to see it while someone doing it, because online documentations are not clear)
+  * **Dockerizing** the app. Successfully dockerized and ran in Nginx Container.
   * Deployed the app to AWS for live demo.
- 
+
+  ### State Management
+  * Tried to implement Redux but got problems.
+  * Fixed some prop-drillings from old code and used setState instead.
+  
 <hr/>
 
 
