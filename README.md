@@ -12,18 +12,22 @@
   * Used existing **color palette**, **font sizes**, **media queries**, **padding sizes**.
   * Fixed style faults with `npm run standard`.
   * Created `utils.js` inside shared folder for **global functions**.
-  * Created Fetch Component for async fetching.
+  * Created `Fetch Component` for `async` fetching with `Axios`.
   * Refactored code for better standards.
+  * Added PropTypes.
  
   ### What I Experimented
   * **Dockerizing** the app. Successfully dockerized and ran in Nginx Container.
   * Deployed the app to AWS for live demo.
+  * Testing with `JEST`: wrote a test component for testing fetching data from API. But; because of `babel` configuration it didin't run.
 
   ### State Management
-  * Tried to implement Redux but got problems.
+  * Tried to implement Redux but got problems about its necessary or not.
   * Fixed some prop-drillings from old code and used setState instead.
   
 <hr/>
+
+
 
 
 Hello. This is the Immfly frontend code test. You have to build a web application listing the **first pokemon generation**.
