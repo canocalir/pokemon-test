@@ -25,7 +25,7 @@ export default class PokeDetail extends Component {
     }
 
   render () {
-    const avatar = `http://pokestadium.com/sprites/xy/${urlCorrector(this.props.match.params.name)}.gif`;
+    const avatar =  this.props.match.params.name === 'mr-mime' ? `https://projectpokemon.org/images/normal-sprite/${urlCorrector('mr.mime')}.gif` : this.props.match.params.name === 'nidoran-m' || this.props.match.params.name === 'nidoran-f' ? `https://projectpokemon.org/images/normal-sprite/${urlCorrector(this.props.match.params.name === 'nidoran-m'? 'nidoran_m' : 'nidoran_f')}.gif`:`https://projectpokemon.org/images/normal-sprite/${urlCorrector(this.props.match.params.name)}.gif`;
     const {pokemondetails, habilities, types} = this.state;
     const listItems = habilities.map((ability, id) => {
       return <li 
