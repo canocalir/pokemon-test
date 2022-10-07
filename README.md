@@ -12,4 +12,4 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-Project created by Can Berk Ocalir for educational purposes.
+Project originally given by Immfly and created by Can Berk Ocalir for educational purposes.
