@@ -7,7 +7,8 @@
 
 ## [Click here for live demo](https://dulcet-chimera-3865aa.netlify.app/)
 
-![react-pokemon](https://user-images.githubusercontent.com/11324886/194645677-a34223e7-7884-435d-b8bb-2f4a0afc2c38.gif)
+![pokemon](https://user-images.githubusercontent.com/11324886/197602220-e1e1f573-ff52-4582-8f64-3429bd2c3cdf.gif)
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
